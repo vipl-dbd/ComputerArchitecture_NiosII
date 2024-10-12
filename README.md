@@ -18,7 +18,7 @@ Laboratory infrastructure - hardware: <br />
 
 Laboratory infrastructure - software: <br />
 - Windows 10 <br />
-- Intel Quartus II 12.1 design suite <br />
+- Altera Quartus II 12.1 design suite <br />
 
 Folder organization: <br />
 ./code: assembler and C programs <br />
