@@ -19,6 +19,8 @@ Laboratory infrastructure - hardware: <br />
 Laboratory infrastructure - software: <br />
 - Windows 10 <br />
 - Altera Quartus II 12.1 design suite <br />
+- Altera Monitor Program 12.1  <br />
+- Nios II Embedded Design Suite 12.1  <br />
 
 Folder organization: <br />
 ./code: assembler and C programs <br />
