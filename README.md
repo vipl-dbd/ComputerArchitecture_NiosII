@@ -11,6 +11,14 @@ Lab 4. Nios II multiprocessor implementation, parallel programming, and performa
 
 Lab 5. Nios II processor with customized architecture for a software application
 
+Laboratory infrastructure - hardware: <br />
+- Terasic DE0-Nano board <br />
+- Desktop computer <br />
+- USB-A - miniUSB cable <br />
+Laboratory infrastructure - software: <br />
+- Windows 10 <br />
+- Intel Quartus II 12.1 design suite <br />
+
 Folder organization: <br />
 ./code: assembler and C programs <br />
 ./labs: pdf documents for hands-on exercises <br />
