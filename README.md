@@ -15,6 +15,7 @@ Laboratory infrastructure - hardware: <br />
 - Terasic DE0-Nano board <br />
 - Desktop computer <br />
 - USB-A - miniUSB cable <br />
+
 Laboratory infrastructure - software: <br />
 - Windows 10 <br />
 - Intel Quartus II 12.1 design suite <br />
