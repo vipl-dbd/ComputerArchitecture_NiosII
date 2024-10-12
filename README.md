@@ -1,5 +1,5 @@
 # Computer Architecture hands-on exercises based on the Nios II soft processors
-Hands-on exercises for the Computer Architecture course at the [University of Las Palmas de Gran Canaria (Spain)](https://internacional.ulpgc.es/en/) using Nios II-based software SoCs and DE0-Nano board
+Hands-on exercises for the Computer Architecture course at the [University of Las Palmas de Gran Canaria (Spain)](https://internacional.ulpgc.es/en/) using Nios II-based sof SoCs and DE0-Nano board
 
 [Lab 1. Nios II/e instruction set architecture and programming](labs/lab1/lab1tutorial.pdf)
 
@@ -16,4 +16,4 @@ Folder organization: <br />
 ./labs: pdf documents for hands-on exercises <br />
 ./SoC_configurations: binary files to configure the FPGA of a Terasic DE0-Nano board <br />
 
-Another [repository](https://github.com/vipl-dbd/ComputerArchitecture_NiosV) includes similar hands-on exercises using the Nios V software processor.
+Another [repository](https://github.com/vipl-dbd/ComputerArchitecture_NiosV) includes similar hands-on exercises using the Nios V soft processor.
