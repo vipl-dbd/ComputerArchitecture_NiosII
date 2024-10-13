@@ -3,13 +3,13 @@ Hands-on exercises for the Computer Architecture course at the [University of La
 
 [Lab 1. Nios II/e instruction set architecture and programming](labs/lab1/lab1tutorial.pdf)
 
-Lab 2. Performance evaluation of the memory hierarchy of a computer and reverse engineering of the data cache memory
+[Lab 2. Performance evaluation of the memory hierarchy of a computer and reverse engineering of the data cache memory](labs/lab2/lab2tutorial.pdf)
 
-Lab 3. Performance evaluation of pipelined processors
+[Lab 3. Performance evaluation of pipelined processors](labs/lab3/lab3tutorial.pdf)
 
-Lab 4. Nios II multiprocessor implementation, parallel programming, and performance evaluation
+[Lab 4. Nios II multiprocessor implementation, parallel programming, and performance evaluation](labs/lab4/lab4tutorial.pdf)
 
-Lab 5. Nios II processor with customized architecture for a software application
+[Lab 5. Nios II processor with customized architecture for a software application](labs/lab5/lab5tutorial.pdf)
 
 Laboratory infrastructure - hardware: <br />
 - Terasic DE0-Nano board <br />
