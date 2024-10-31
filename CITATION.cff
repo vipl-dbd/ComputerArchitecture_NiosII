@@ -1,0 +1,32 @@
+# YAML 1.2
+# Metadata for citation according to the CFF format (https://citation-file-format.github.io/)
+cff-version: 1.0.3
+message: If you use this repository, please cite it as below.
+title: "Hands-on experience for undergraduate Computer Architecture courses using
+Nios V-based soft SoCs and real board"
+doi: https://github.com/vipl-dbd/ComputerArchitecture_NiosV/blob/main/benitezSRvSnov24paper.pdf
+authors:
+- given-names: Domingo
+  family-names: Benitez
+  affiliation: University of Las Palmas de Gran Canaria
+references:
+- conference: 
+  name: "2024 First Annual Soft RISC-V Systems Workshop"
+  date-end: "2024-11-08"
+  date-start: "2024-11-07"
+identifiers:
+- doi: 
+  value: https://github.com/vipl-dbd/ComputerArchitecture_NiosV/blob/main/benitezSRvSnov24paper.pdf
+preferred-citation:
+  type: conference-paper
+  authors: 
+  - family-names: "Benitez"
+    given-names: "Domingo"
+  title: "Hands-on experience for undergraduate Computer Architecture courses using
+Nios V-based soft SoCs and real board"
+  conference: 
+    name: "2024 First Annual Soft RISC-V Systems Workshop"
+    year: 2024
+
+
+
