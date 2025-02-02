@@ -29,6 +29,13 @@ Folder organization: <br />
 
 The lab assignments described here have been used in the training of more than 1,000 computer science undergraduate students for more than 10 years.
 
+2025 winter semester: 171 students enrolled, 7 student groups.
+
+## Lab calendar
+
+Week 1. Lab 1: summary, DE0-board, Altera software tools, Nios II ISA, assembler programming, exercises. Hours: 2 (laboratory) + 2 (homework)
+
+
 Another [repository](https://github.com/vipl-dbd/ComputerArchitecture_NiosV) includes similar hands-on exercises using the Nios V soft processor.
 
 ## Citation
