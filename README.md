@@ -33,8 +33,10 @@ The lab assignments described here have been used in the training of more than 1
 
 ## Lab calendar
 
-Week 1. Lab 1: summary, DE0-board, Altera software tools, Nios II ISA, assembler programming, exercises. Hours: 2 (laboratory) + 2 (homework)
+<ins>Week 1.</ins> Lab 1: summary, DE0-board, Altera software tools, Nios II ISA, assembler programming, exercises. Hours: 2 (laboratory) + 2 (homework)
 
+
+## Nios V
 
 Another [repository](https://github.com/vipl-dbd/ComputerArchitecture_NiosV) includes similar hands-on exercises using the Nios V soft processor.
 
