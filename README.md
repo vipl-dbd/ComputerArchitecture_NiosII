@@ -11,22 +11,23 @@ Hands-on exercises for the Computer Architecture course at the [University of La
 
 [Lab 5. Nios II processor with customized architecture for a software application](labs/lab5/lab5tutorial.pdf)
 
-Laboratory infrastructure - hardware: <br />
+## Laboratory infrastructure - hardware: <br />
 - Terasic DE0-Nano board <br />
 - Desktop computer <br />
 - USB-A - miniUSB cable <br />
 
-Laboratory infrastructure - software: <br />
+## Laboratory infrastructure - software: <br />
 - Windows 10 <br />
 - Altera Quartus II Design Suite 12.1 <br />
 - Altera Monitor Program 12.1  <br />
 - Nios II Embedded Design Suite 12.1  <br />
 
-Folder organization: <br />
+## Folder organization: <br />
 ./code: assembler and C programs <br />
 ./labs: pdf documents for hands-on exercises <br />
 ./SoC_configurations: binary files to configure the FPGA of a Terasic DE0-Nano board <br />
 
+## Previous and current academic work
 The lab assignments described here have been used in the training of more than 1,000 computer science undergraduate students for more than 10 years.
 
 2025 winter semester: 171 students enrolled, 7 student groups.
