@@ -32,10 +32,14 @@ The lab assignments described here have been used in the training of more than 1
 
 2025 winter semester: 171 students enrolled, 7 student groups.
 
-## Lab calendar
+## Lab calendar (15 weeks)
 
 <ins>Week 1.</ins> Lab 1: summary, DE0-Nano board, Altera software tools, Nios II instruction set architecture, assembler programming, exercises. Hours: 2 (laboratory) + 2 (homework). Documents: [guide](labs/lab1/lab1tutorial.pdf), [video (Spanish)](https://alumnosulpgc-my.sharepoint.com/:v:/g/personal/domingo_benitez_ulpgc_es/EVO66mSOE-dNrrI2DZl7N1kBPb6miODAcXxCLPsFmelAZA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VIDyYF).
 
+<ins>Week 2.</ins> Lab 1: subroutines, modification of a loaded instruction code, exercises: Fibonacci series, binary multiplication, dot product, binary division. Hours: 2 (laboratory) + 2 (homework). Documents: [guide](labs/lab1/lab1tutorial.pdf)
+
+## Topics
+Labs are based on principles presented in 30 lectures during the semester. Them main topics are: methodology for performance evaluation of RISC computers, microarchitecture of pipelined processors and its efficient programming, performance evaluation of cache memories, design and evaluation of main memory, static scheduling of instructions, out-of-order instruction execution, microarchitecture and evaluation of superscalar processors, parallel computing using shared memory architectures, GPUs, multicomputers and application specific instruction set processors.
 
 ## Nios V
 
