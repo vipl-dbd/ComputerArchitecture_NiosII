@@ -52,9 +52,9 @@ Labs are based on principles presented in 30 one-hour lectures during the semest
 
 Practical experience on Computer Architecture using real FPGA-based hardware, assembly language programming using a RISC-based instruction set and several bare-metal computer systems, multi-thread programming, code optimization using information from the computer architecture, performance evaluation of processors and multiprocessors, performance evaluation of memory hierarchy including main memory and caches, programming, performance evaluation and customization of the microarchitecture of a general-purpose processor integrated into a System-on-Chip.
 
-## Professional profiles that demand these skills
+## Professional opportunities that demand these skills across industries
 
-System architect, GPU Competitive Analysis, Platform Solutions Architect.
+Platform Hardware and Systems Engineer (development of hardware and systems), System and Solution Architect, GPU platform Hardware Design Engineer, Platform Solutions Architect, Hardware Engineer, Platform Validation Engineer, Product Packing Engineer, Security Research Engineer, Silicon Architecture Engineer.
 
 
 ## Nios V

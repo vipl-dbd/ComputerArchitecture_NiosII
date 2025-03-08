@@ -1,53 +1,55 @@
-/********************************************************************************
-* subrutina: lab2_part1_2_3_interrupts.s
-*
-* El programa AMP (Altera Monitoro Program) sitúa automáticamente la sección ".reset"
-* en la dirección de memoria del reset que se especifica en la configuración del NIOS II
-* que se determina con SOPC Builder.
-* "ax" se necesita para indicar que esta sección se reserva y ejecuta
-*/
+/****************************************************************************** 
+* subroutine: lab2\_part1\_2\_3\_interrupts.s
+* 
+* The AMP program (Altera Monitor Program) finds out the section ".reset" 
+* in the memory address that is set in the Nios II hardware configuration 
+* by the SOPC Builder tool. 
+* "ax" is needed to indicate that this section is reserved and executed 
+******************************************************************************/ 
 
 .section .reset, "ax"
 movia r2, _start
-jmp r2 /* salta al programa principal */
+jmp r2 				/* jump to the main program */
 
-/********************************************************************************
-* El programa AMP (Altera Monitor Program) sitúa automáticamente la sección ".exceptions"
-* en la dirección de memoria del reset que se especifica en la configuración del NIOS II
-* que se determina con SOPC Builder.
-* "ax" se necesita para indicar que esta sección se reserva y ejecuta
+/******************************************************************************
+* The AMP program (Altera Monitor Program) finds out the section ".exceptions" 
+* in the memory address that is set in the Nios II hardware configuration 
+* by the SOPC Builder tool. \par
+* "ax" is needed to indicate that this section is reserved and executed 
 *
-* Subrutinas: INTERVAL_TIMER_ISR (lab3_part1_excepciones.s)
-*/
+* Subroutines: INTERVAL_TIMER_ISR (lab2_part1_2_3_excepciones.s)
+******************************************************************************/ 
 
 .section .exceptions, "ax"
 .global EXCEPTION_HANDLER
 
 EXCEPTION_HANDLER:
-	subi sp, sp, 16 	/* reserva el Stack */
+	subi sp, sp, 16 		/* reserve the stack */
 	stw et, 0(sp)
 	rdctl et, ctl4
-	beq et, r0, SKIP_EA_DEC /* interrupcion no es externa */
-	subi ea, ea, 4 		/* debe decrementarse ea en 1 instrucción */
+	beq et, r0, SKIP_EA_DEC 	/* interrupt is not external */
+	subi ea, ea, 4 			/* ea register must be decreased by 1 instruction */
 
-/* para interrupciones externas, de forma tal que */
-/* la instrucción interrumpida se ejecutará después de eret (Exception RETurn) */
 SKIP_EA_DEC:
-	stw ea, 4(sp) 		/* guardar registros en el Stack */
-	stw ra, 8(sp) 		/* se requiere si se ha usado un call */
+/* For external interruptions, so that the interrupted instruction will be executed  */
+/* after eret (Exception Return) */
+	stw ea, 4(sp) 			/* save registers in the stack */
+	stw ra, 8(sp) 			/* required if a call has been used */
 	stw r22, 12(sp)
 	rdctl et, ctl4
-	bne et, r0, CHECK_LEVEL_0 /* la excepción es una interrupción externa */
+	bne et, r0, CHECK_LEVEL_0 	/* the exception is an external interrupt */
 
-NOT_EI: /* excepción para instrucciones no implementadas o TRAPs */
+NOT_EI:
+/* exception for not implemented instructions or TRAPs */
 	br END_ISR 
 
-CHECK_LEVEL_0: /* Timer dispone de interrupciones de Level 0 */
+CHECK_LEVEL_0: 
+/* Timer has Level 0 interrupt */
 	call INTERVAL_TIMER_ISR
 	br END_ISR
 
 END_ISR:
-	ldw et, 0(sp) 		/* restaurar valores previos de registros */
+	ldw et, 0(sp) 			/* restore previous registers values from stack */
 	ldw ea, 4(sp)
 	ldw ra, 8(sp) 		
 	ldw r22, 12(sp)
