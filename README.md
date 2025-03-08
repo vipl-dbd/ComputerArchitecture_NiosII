@@ -44,6 +44,8 @@ The lab assignments described here have been used in the training of more than 1
 
 <ins>Week 5.</ins> Lab 2: summary, memory hierarchy and its implementation on the DE0-Nano board, SDRAM memory device, SRAM on-chip memory, performance evaluation of Nios II/e soft core when SDRAM or SRAM are activated. Hours: 2 (laboratory) + 2 (homework). Documents: [guide](labs/lab2/lab2tutorial.pdf).
 
+<ins>Week 6.</ins> Lab 2: cache memory size and block size of an unknown soft core microarchitecture are discovered (cache memory reverse engineering). Hours: 2 (laboratory) + 2 (homework). Documents: [guide](labs/lab2/lab2tutorial.pdf).
+
 ## Topics
 
 Labs are based on principles presented in 30 one-hour lectures during the semester in parallel with the lab sessions. The main topics covered are: methodology for performance evaluation of RISC computers, microarchitecture of pipelined processors and its efficient programming, performance evaluation of cache memories, design and performance evaluation of main memory, static scheduling of instructions, out-of-order instruction execution, microarchitecture and evaluation of superscalar processors, VLIW architectures and microarchitectures, high-performance parallel computing using shared memory multi-core architectures, GPUs, multicomputers and application specific instruction set processors.
