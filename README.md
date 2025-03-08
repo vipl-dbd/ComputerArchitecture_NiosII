@@ -48,13 +48,13 @@ The lab assignments described here have been used in the training of more than 1
 
 Labs are based on principles presented in 30 one-hour lectures during the semester in parallel with the lab sessions. The main topics covered are: methodology for performance evaluation of RISC computers, microarchitecture of pipelined processors and its efficient programming, performance evaluation of cache memories, design and performance evaluation of main memory, static scheduling of instructions, out-of-order instruction execution, microarchitecture and evaluation of superscalar processors, VLIW architectures and microarchitectures, high-performance parallel computing using shared memory multi-core architectures, GPUs, multicomputers and application specific instruction set processors.
 
-## Skills gained by students in Computer Architecture
+## Skills gained by students in this Computer Architecture course
 
 Practical experience on Computer Architecture using real FPGA-based hardware, assembly language programming using a RISC-based instruction set and several bare-metal computer systems, multi-thread programming, code optimization using information from the computer architecture, performance evaluation of processors and multiprocessors, performance evaluation of memory hierarchy including main memory and caches, programming, performance evaluation and customization of the microarchitecture of a general-purpose processor integrated into a System-on-Chip.
 
 ## Professional opportunities that demand these skills across industries
 
-Platform Hardware and Systems Engineer (development of hardware and systems), System and Solution Architect, GPU platform Hardware Design Engineer, Platform Solutions Architect, Hardware Engineer, Platform Validation Engineer, Product Packing Engineer, Security Research Engineer, Silicon Architecture Engineer.
+Platform Hardware and Systems Engineer (development of hardware and systems), System and Solution Architect, GPU Platform Hardware Design Engineer, Platform Solutions Architect, Hardware Engineer, Platform Validation Engineer, Product Packing Engineer, Security Research Engineer, Silicon Architecture Engineer.
 
 
 ## Nios V
