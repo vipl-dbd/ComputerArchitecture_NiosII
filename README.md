@@ -54,7 +54,7 @@ Practical experience on Computer Architecture using real FPGA-based hardware, as
 
 ## Professional opportunities that demand these skills across industries
 
-Platform Hardware and Systems Engineer (development of hardware and systems), System and Solution Architect, GPU Platform Hardware Design Engineer, Platform Solutions Architect, Hardware Engineer, Platform Validation Engineer, Product Packing Engineer, Security Research Engineer, Silicon Architecture Engineer.
+Platform Hardware and Systems Engineer (development of hardware and systems), System and Solution Architect ((micro)architecture simulation, workloads characterization, C++/Python/Perl programming), GPU Platform Hardware Design Engineer (RTL coding, and simulation for graphics IPs), Platform Solutions Architect (translate requirements and key performance indicators into platform architecture encompassing hardware, software, SoCs, and other components designed to support a variety of systems, solutions, and applications), Platform Validation Engineer (develop verification plans for Coherency/ Memory/ Power Management/ Security/ domains of pre-Silicon subsystems), Security Research Engineer (design and implementation of scientific research projects for secure computing, cryptographic algorithms, communication, memory and networking), Silicon Architecture Engineer (logic & circuit design, physical design, validation and debug).
 
 
 ## Nios V

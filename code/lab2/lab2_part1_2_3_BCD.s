@@ -31,7 +31,7 @@ BCD:
 
 LOOP2:	bge r0, r4, END /* while binary value > 0 */
 
-	call DIV	/* calls division with r4 = dividend, r5 = divisor; returns r3= quotient, r2= rest  */
+	call DIV	/* calls division with r4 = dividend, r5 = divisor; returns r3= quotient, r2= remainder  */
 	sll r2, r2, r6	/* shifts the result 4 bits to the left except for the first number */
 	or r10, r10, r2 /* accumulates the result in r10 */
 	addi r6, r6, 4	/* updated r6 += 4 */
