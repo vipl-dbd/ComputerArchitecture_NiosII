@@ -50,7 +50,7 @@ The lab assignments described here have been used in the training of more than 1
 
 <ins>Week 8.</ins> Lab 2: exam. Hours: 2 (laboratory) + 2 (homework). 
 
-<ins>Week 9.</ins> Lab 3: counting executed instructions and calculating the average CPI (cycles per instruction). Hours: 2 (laboratory) + 2 (homework). 
+<ins>Week 9.</ins> Lab 3: counting executed instructions and calculating the average CPI (cycles per instruction). Hours: 2 (laboratory) + 2 (homework). Documents: [guide](labs/lab2/lab2tutorial.pdf).
 
 ## Topics
 
