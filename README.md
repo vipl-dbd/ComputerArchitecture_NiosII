@@ -60,6 +60,10 @@ The lab assignments described here have been used in the training of more than 1
 
 <ins>Week 13.</ins> Lab 4: Two tutorials for programming a Nios II/e multiprocessor. Hours: 2 (laboratory) + 2 (homework). Documents: [guide](labs/lab4/lab4tutorial.pdf).
 
+<ins>Week 14.</ins> Lab 4: Parallel programming of the matrix-vector algorithm and performance evaluation on two Nios II multiprocessors. Hours: 2 (laboratory) + 2 (homework). Documents: [guide](labs/lab4/lab4tutorial.pdf).
+
+<ins>Week 15.</ins> Lab 4: Parallel programming of the matrix-matrix algorithm and performance evaluation on three Nios II multiprocessors. Hours: 2 (laboratory) + 2 (homework). Documents: [guide](labs/lab4/lab4tutorial.pdf).
+
 ## Topics
 
 Labs are based on principles presented in 30 one-hour lectures during the semester in parallel with the lab sessions. The main topics covered are: methodology for performance evaluation of RISC computers, microarchitecture of pipelined processors and its efficient programming, performance evaluation of cache memories, design and performance evaluation of main memory, static scheduling of instructions, out-of-order instruction execution, microarchitecture and evaluation of superscalar processors, VLIW architectures and microarchitectures, high-performance parallel computing using shared memory multi-core architectures, GPUs, multicomputers and application specific instruction set processors.
